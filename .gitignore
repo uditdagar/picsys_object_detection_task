@@ -1,0 +1,5 @@
+# Ignore virtual environment
+yolovenv/
+__pycache__/
+*.pyc
+runs/

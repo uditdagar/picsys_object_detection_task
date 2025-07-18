@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO('yolov5n.pt')
+model = YOLO('yolov8n.pt')
 
 results= model('image.jpg')
 results[0].show()
